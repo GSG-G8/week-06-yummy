@@ -16,9 +16,14 @@
   </section>
 
   <form class="form" action="/create-recipe" method="post">
-    <input type="text" name="name" value="" placeholder="name">
-    <input type="text" name="description" value="" placeholder="description">
-    <input type="url" name="img_url" value="" placeholder="url">
+    <label for="name">Recipe name:</label>
+    <input type="text" id="name" name="name" value="" placeholder="name" required>
+    <label for="ingeridents">ingeridents:</label>
+    <input type="text" id="ingeridents" name="ingeridents" value="" placeholder="ingeridents" required>
+    <label for="preparation">preparation:</label>
+    <input type="text" id="preparation" name="preparation" value="" placeholder="preparation" required>
+    <label for="img_url">Recipe img:</label>
+    <input type="url" id="img_url" name="img_url" value="" placeholder="url" required>
     <button type="submit" name="button">+ Add recipe</button>
 </form>
 
