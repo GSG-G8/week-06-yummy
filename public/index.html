@@ -4,15 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel = "icon" href =  
-"./favicon.ico" 
-        type = "image/x-icon"> 
+  <link rel="stylesheet" href="style.css" />
+  <link rel = "icon" href = "./favicon.ico" type = "image/x-icon"> 
   <title> Yummy App</title>
 </head>
 <body>
   <header>
     <h1> Yummy </h1>
-    <p></p>
+    <p> Our site provide food recpies </p>
   </header>
  
   <section id="all__recipes">
@@ -22,17 +21,17 @@
     <label for="name">Recipe name:</label>
     <input type="text" id="name" name="name" value="" placeholder="name" required>
     <label for="ingeridents">ingeridents:</label>
-    <input type="text" id="ingeridents" name="ingeridents" value="" placeholder="ingeridents" required>
+    <textarea type="text" id="ingeridents" name="ingeridents" value="" placeholder="ingeridents" required></textarea>
     <label for="preparation">preparation:</label>
-    <input type="text" id="preparation" name="preparation" value="" placeholder="preparation" required>
-    <label for="img_url">Recipe img:</label>
-    <input type="url" id="img_url" name="img_url" value="" placeholder="url" required>
+    <textarea type="text" id="preparation" name="preparation" value="" placeholder="preparation" required></textarea>
+    <label for="imgurl">Recipe img:</label>
+    <input type="url" id="imgurl" name="imgurl" value="" placeholder="url" required>
     <button type="submit" name="button">+ Add recipe</button>
 </form>
 
-  <footer>
-    <h6> the end </h6>
-  </footer>
+<footer>
+  © Yummy.com  
+</footer>
   <script src="./dom.js"></script>
 </body>
 </html>

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  background-image: linear-gradient(#6b5a5a ,#46443f , #121312 );
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header {
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(170, 92, 185, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  padding: 40px 0;
+  height: 50px;
+}
+header h1{
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 32px;
+  color: #f5dad6;
+}
+header p{
+  color: #f5dad6;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin: 20px 0;
+}
+label {
+  display: none;
+}
+#all__recipes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+article{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding-bottom: 7%;
+  width: 550px;
+  height: 650px;
+  background-color: rgb(57, 28, 61);
+  color: #fff;
+}
+article img{
+  width: 100%;
+  height: 60%;
+  margin-bottom: 4%;
+  cursor: pointer;
+}
+article h3{
+  font-size: 20px;
+  margin-left: 2%;
+  padding: 2px;
+}
+article p{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 2%;
+}
+form{
+  max-width: 750px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin: 50px auto;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 6px solid   rgb(140, 64, 150);
+}
+form input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(180, 125, 216);
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(180, 125, 216);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+form button{
+  width: 100%;
+	padding: 3%;
+	background: rgb(140, 64, 150);
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+footer{
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(170, 92, 185, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  padding: 20px 0;
+  height: 20px;
+}
