@@ -41,12 +41,6 @@ As a blind:
 
 ```
 
-User flows
----
-```sequence
-server->client: view recipe from database
-client->server: save recipe to databse
 
-```
 
 ###### tags: `recipe` `Database` `javaScript` `SQL`
