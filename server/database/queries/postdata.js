@@ -1,3 +1,4 @@
+
 const Connection = require('../config/connection');
 
 const postdata = (userData) => {
@@ -14,3 +15,4 @@ const postdata = (userData) => {
 module.exports = {
   postdata,
 };
+

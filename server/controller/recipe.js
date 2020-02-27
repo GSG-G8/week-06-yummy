@@ -1,6 +1,7 @@
 const { getdata } = require('../database/queries/getdata');
 const { postdata } = require('../database/queries/postdata');
 
+
 exports.getrecipe = (req, res) => {
   getdata()
     .then((result) => {
