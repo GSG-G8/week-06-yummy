@@ -5,12 +5,12 @@ DROP TABLE IF EXISTS recipe cascade;
 CREATE TABLE recipe (
   id           SERIAL       PRIMARY KEY ,
   name         VARCHAR(255) NOT NULL,
-  ingredients   text NOT NULL,
-  preparation   text NOT NULL,
-  img_url       text
+  ingredients   text ,
+  preparation   text ,
+  imgurl        text
 );
 
-INSERT INTO recipe (name, ingredients ,preparation , img_url) VALUES
+INSERT INTO recipe (name, ingredients ,preparation , imgurl) VALUES
   ('Quick banana ice cream',  '4 ripe bananas, cut into chunks,3-4 tbsp milk, 2 tbsp toasted flaked almonds, 2 tbsp ready-made toffee or chocolate sauce' ,'Pop the banana chunks on a flat tray and cover well. Freeze for at least 1 hr, or until frozen through. When ready to eat throw the banana into a food processor and whizz until smooth with enough of the milk to achieve a creamy texture. Scoop into 4 bowls or glasses, then top with the sauce and nuts.','https://www.bbcgoodfood.com/sites/default/files/recipe_images/recipe-image-legacy-id--653634_11.jpg'),
 ('Saucy bean baked eggs','2 x 400g cans cherry tomatoes, 400g can mixed bean salad, drained, 200g baby spinach,4 medium eggs, 50g thinly sliced smoked ham, torn,wholemeal rye bread, to serve (optional)','Tip the tomatoes and bean salad into an ovenproof frying pan or shallow flameproof casserole dish. Simmer for 10 mins, or until reduced. Stir in the spinach and cook for 5 mins more until wilted. 
 Heat the grill to medium. Make four indentations in the mixture using the back of a spoon, then crack one egg in each. Nestle the ham in the mixture, then grill for 4-5 mins, or until the whites are set and the yolks runny. Serve with rye bread, if you like.','https://www.bbcgoodfood.com/sites/default/files/recipe/recipe-image/2020/01/saucy-bean-baked-eggs.jpg'),
