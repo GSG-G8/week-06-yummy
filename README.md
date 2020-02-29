@@ -1,8 +1,3 @@
----
-title: 'Yummy'
-disqus: hackmd
----
-
 Recipe website YUMMY
 ===
 
@@ -11,7 +6,7 @@ Recipe website YUMMY
 
 WHY
 ---
-Yummy is a blog for view and share your favorite recipes, the is design to help anyone enjoy cooking to try new recipes and share their lovely food.
+Yummy is a blog for view and share your favorite recipes, we design our site to help anyone enjoy cooking to try new recipes and share their lovely food.
 
 WHAT
 ---
