@@ -22,6 +22,18 @@ We have divided our website into three sections. These sections as follow:
 
 3. "footer" section_: This is section displays credentials about the website.
 
+the posts are saved in server database usign postgresSql as shown below:
+
+
+| NAME   | TYPE      |   NULLABLE | 
+| ------ | --------- |   -------- | 
+| id     | serial   primary key |    false        | 
+| name   | varchar(255)   |    false        | 
+| ingredients | text |    ture        | 
+| preparation | text |    true        | 
+| imgurl | text | true        | 
+
+
 User story
 ---
 
